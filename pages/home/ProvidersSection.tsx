@@ -12,11 +12,11 @@ const ProvidersSection = () => {
       <div className="titleAnimation mb-5 mt-4 m-auto"></div>
       <div className="d-flex justify-content-between gap-5 align-items-center mt-5">
         {providers.map((providers, i) => (
-          <div data-aos="zoom-in-up" data-aos-delay={`${i * 200}`}>
-            <ProvidersCard key={i} img={providers.img} url={providers.url} />
+          <div key={i} data-aos="zoom-in-up" data-aos-delay={`${i * 200}`}>
+            <ProvidersCard img={providers.img} url={providers.url} />
           </div>
-          ))}
-        </div>
+        ))}
+      </div>
     </section>
   );
 };
