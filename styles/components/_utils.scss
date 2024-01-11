@@ -1,0 +1,70 @@
+@use "../mixins/mediaQuery" as mixins;
+@use "../base/vars";
+
+// ======================================= //
+// colors
+// ======================================= //
+.clrMain {
+  color: vars.$clr-main;
+}
+
+.clrMainHover {
+  color: vars.$clr-main-hover;
+}
+
+.logoWrapper {
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+  width: 40vw;
+}
+
+@include mixins.media-query(medium) {
+  .logoWrapper {
+    width: 10vw;
+  }
+}
+
+.titleAnimation {
+  position: relative;
+  width: 150px;
+}
+
+.titleAnimation::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 7px;
+  left: 0;
+  bottom: 0;
+  background: vars.$clr-main;
+  border-radius: 2px;
+}
+
+.titleAnimation.hover::before {
+  background: vars.$clr-main-hover;
+}
+
+.titleAnimation::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 7px;
+  bottom: 0px;
+  background: #ffffff;
+  animation: titleAnimation 5s ease-in-out infinite;
+}
+
+@keyframes titleAnimation {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: 144px;
+  }
+
+  100% {
+    left: 0;
+  }
+}

@@ -1,0 +1,49 @@
+@use "../base/vars";
+
+.customCard {
+  padding: 10px;
+  border-radius: 10px;
+  height: 50vh;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.customCard:hover {
+  transform: scale(1.025);
+}
+
+.cardImg {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cardTitle {
+  color: vars.$clr-main;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cardDesc {
+  color: gray;
+}
+
+.cardCta {
+  background-color: vars.$clr-main;
+  border: none;
+  outline: none;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 7px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: vars.$clr-main-hover;
+  }
+}

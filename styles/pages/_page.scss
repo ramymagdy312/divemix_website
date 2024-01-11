@@ -1,0 +1,128 @@
+@use "../base/vars";
+@use "../mixins/mediaQuery" as mixins;
+
+// ============================================== //
+// pageBanner
+// ============================================== //
+.pageBanner {
+  position: relative;
+  height: 35vh;
+}
+
+.pageBannerSlice {
+  opacity: 0;
+  transition: 2s ease-in-out;
+}
+
+.pageBannerSlice.active {
+  opacity: 1;
+}
+
+.pageBannerImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 35vh;
+  z-index: 0;
+}
+
+.pageBannerImage_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.pageBannerTxt {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: #000;
+}
+
+.pageBannerTitle {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.pageBannerCaption {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.pageBanner_cta {
+  background-color: vars.$clr-main;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: vars.$clr-main-hover;
+  }
+}
+
+.pageBannerNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  color: gray;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+}
+
+@include mixins.media-query(medium) {
+  .pageBanner,
+  .pageBannerImage {
+    height: 80vh;
+  }
+
+  .pageBannerTxt {
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+  }
+
+  .pageBannerTitle {
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .pageBannerCaption {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: left;
+  }
+}
+

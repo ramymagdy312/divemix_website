@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "divemix",
+    "imageURL": "/img/homeBanner/1.png"
+  },
+  {
+    "id": 2,
+    "title": "divemix",
+    "imageURL": "/img/homeBanner/2.png"
+  },
+  {
+    "id": 3,
+    "title": "divemix",
+    "imageURL": "/img/homeBanner/3.png"
+  },
+  {
+    "id": 4,
+    "title": "divemix",
+    "imageURL": "/img/homeBanner/4.png"
+  },
+  {
+    "id": 5,
+    "title": "divemix",
+    "imageURL": "/img/homeBanner/5.png"
+  },
+  {
+    "id": 6,
+    "title": "divemix",
+    "imageURL": "/img/homeBanner/6.png"
+  }
+]

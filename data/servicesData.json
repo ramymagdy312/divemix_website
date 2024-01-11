@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "img": "/img/services/1.jpg",
+    "title": "Maintainence",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cta": "read more"
+  },
+  {
+    "id": 2,
+    "img": "/img/services/2.webp",
+    "title": "Compressor",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cta": "read more"
+  },
+  {
+    "id": 3,
+    "img": "/img/services/3.jpg",
+    "title": "Diving Accessories",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cta": "read more"
+  },
+  {
+    "id": 4,
+    "img": "/img/services/4.jpg",
+    "title": "Diving Suit",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cta": "read more"
+  }
+]

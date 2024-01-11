@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/img/homeBanner/1.png",
+    "title": "Welcome to DiveMix LTD.",
+    "caption": "Specialized in gas & compressor technologies"
+  },
+  {
+    "id": 2,
+    "image": "/img/homeBanner/2.png",
+    "title": "Welcome to DiveMix LTD.",
+    "caption": "Specialized in gas & compressor technologies"
+  },
+  {
+    "id": 3,
+    "image": "/img/homeBanner/3.png",
+    "title": "Welcome to DiveMix LTD.",
+    "caption": "Specialized in gas & compressor technologies"
+  },
+  {
+    "id": 4,
+    "image": "/img/homeBanner/4.png",
+    "title": "Welcome to DiveMix LTD.",
+    "caption": "Specialized in gas & compressor technologies"
+  },
+  {
+    "id": 5,
+    "image": "/img/homeBanner/5.png",
+    "title": "Welcome to DiveMix LTD.",
+    "caption": "Specialized in gas & compressor technologies"
+  },
+  {
+    "id": 6,
+    "image": "/img/homeBanner/6.png",
+    "title": "Welcome to DiveMix LTD.",
+    "caption": "Specialized in gas & compressor technologies"
+  }
+]

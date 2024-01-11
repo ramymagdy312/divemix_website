@@ -1,0 +1,202 @@
+@use "../base/vars";
+@use "../mixins/mediaQuery" as mixins;
+
+// ============================================== //
+// homeBanner
+// ============================================== //
+.homeBanner {
+  position: relative;
+  height: 35vh;
+}
+
+.homeBannerSlice {
+  opacity: 0;
+  transition: 2s ease-in-out;
+}
+
+.homeBannerSlice.active {
+  opacity: 1;
+}
+
+.homeBannerImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 35vh;
+  z-index: 0;
+}
+
+.homeBannerImage_mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.homeBannerTxt {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.homeBannerTitle {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.homeBannerCaption {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.homeBanner_cta {
+  background-color: vars.$clr-main;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: vars.$clr-main-hover;
+  }
+}
+
+.homeBannerNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+  color: gray;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &.left {
+    left: 0;
+  }
+
+  &.right {
+    right: 0;
+  }
+}
+
+@include mixins.media-query(medium) {
+  .homeBanner,
+  .homeBannerImage {
+    height: 80vh;
+  }
+
+  .homeBannerTxt {
+    z-index: 1;
+    color: #fff;
+  }
+
+  .homeBannerTitle {
+    font-size: 4.5rem;
+    text-align: left;
+  }
+
+  .homeBannerCaption {
+    font-size: 2rem;
+    font-weight: 200;
+    text-align: left;
+  }
+}
+
+// ============================================== //
+// aboutSection
+// ============================================== //
+
+.homeSection {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.aboutSection_img {
+  position: relative;
+  height: 40vh;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.aboutSection_callIcon {
+  font-size: 3rem;
+  color: #fff;
+  background-color: vars.$clr-main;
+  padding: 10px;
+}
+
+.aboutSection_ctaBtn {
+  background-color: vars.$clr-main;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  padding: 20px 40px;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: vars.$clr-main-hover;
+  }
+}
+
+@include mixins.media-query(medium) {
+  .aboutSection_img {
+    height: 100%;
+  }
+}
+
+// ============================================== //
+// providers
+// ============================================== //
+.providerLogo {
+  position: relative;
+  height: 70px;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+// ============================================== //
+// homeSlider
+// ============================================== //
+.homeSlider_slice {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  cursor: pointer;
+}
+
+.homeSlider_imageWrapper {
+  position: relative;
+  height: 40vh;
+}
+
+.homeSlider_modalImage {
+  position: relative;
+  height: 60vh;
+  width: 60vw;
+}

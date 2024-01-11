@@ -1,0 +1,130 @@
+@use "../base/vars";
+@use "../mixins/mediaQuery" as mixins;
+
+.mainHeader {
+  position: fixed;
+  left: 0;
+  background-color: #fff;
+  height: 7vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 10px;
+  transition: 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  top: -7vh;
+  z-index: 2;
+}
+
+.mainHeader.shown {
+  top: 0;
+}
+
+.mainHeader .menuToggler {
+  height: 40px;
+  width: 40px;
+  color: vars.$clr-main;
+  border: 1px solid;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.mobileMenu {
+  position: fixed;
+  left: -50vw;
+  top: 0;
+  height: 100vh;
+  width: 50vw;
+  background-color: #fff;
+  transition: 0.3s ease-in-out;
+  padding: 20px;
+  z-index: 10;
+}
+
+.mobileMenu.shown {
+  left: 0;
+}
+
+.mobileMenu_backdrop {
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 9;
+}
+
+@include mixins.media-query(medium) {
+  .mainHeader {
+    background-color: transparent;
+    box-shadow: none;
+    top: 0;
+    height: 9vh;
+    // border-bottom: 1px solid rgba(190, 190, 190, 0.466);
+    align-items: stretch;
+  }
+
+  .mainHeader.shown {
+    background-color: #fff;
+  }
+}
+
+// ======================= navigation ======================== //
+.navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: vars.$clr-main;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+@include mixins.media-query(medium) {
+  .navigation {
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .mainHeader_innerWrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .navItem {
+    cursor: pointer;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid transparent;
+  }
+
+  .navItem.active,
+  .navItem:hover {
+    .navLink {
+      color: vars.$clr-main;
+    }
+    border-bottom: 5px solid vars.$clr-main;
+  }
+
+  .navLink {
+    color: #fff;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+
+  .navLink:hover {
+    color: vars.$clr-main  ;
+  }
+
+  .mainHeader.shown .navLink {
+    color: vars.$clr-main;
+  }
+}
