@@ -39,6 +39,12 @@ const Navigation = () => {
           Applications
         </Link>
         <Link
+          href="/news"
+          className={`navItem navLink ${pathname == "/news" ? "active" : ""}`}
+        >
+          News
+        </Link>
+        <Link
           href="/contact"
           className={`navItem navLink ${
             pathname == "/contact" ? "active" : ""
