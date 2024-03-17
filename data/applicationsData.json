@@ -1,85 +1,99 @@
 [
   {
     "id": 1,
-    "img": "/img/services/1.jpg",
-    "title": "Maintainence",
+    "img": "/img/applications/1.jpg",
+    "title": "Industrial Gases",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 2,
-    "img": "/img/services/2.webp",
-    "title": "Compressor",
+    "img": "/img/applications/2.jpg",
+    "title": "Pharmaceutical",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 3,
-    "img": "/img/services/3.jpg",
-    "title": "Diving Accessories",
+    "img": "/img/applications/3.jpg",
+    "title": "Tourism & Diving",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 4,
-    "img": "/img/services/4.jpg",
-    "title": "Diving Suit",
+    "img": "/img/applications/4.jpg",
+    "title": "Food & Beverages",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 5,
-    "img": "/img/services/1.jpg",
-    "title": "Maintainence",
+    "img": "/img/applications/4.jpg",
+    "title": "Packaging",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 6,
-    "img": "/img/services/2.webp",
-    "title": "Compressor",
+    "img": "/img/applications/1.jpg",
+    "title": "Electronics",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 7,
-    "img": "/img/services/3.jpg",
-    "title": "Diving Accessories",
+    "img": "/img/applications/12.jpg",
+    "title": "Steel",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 8,
-    "img": "/img/services/4.jpg",
-    "title": "Diving Suit",
+    "img": "/img/applications/3.jpg",
+    "title": "Oil & Gas",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 9,
-    "img": "/img/services/1.jpg",
-    "title": "Maintainence",
+    "img": "/img/applications/9.jpg",
+    "title": "Military",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 10,
-    "img": "/img/services/2.webp",
-    "title": "Compressor",
+    "img": "/img/applications/4.jpg",
+    "title": "Medical",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 11,
-    "img": "/img/services/3.jpg",
-    "title": "Diving Accessories",
+    "img": "/img/applications/1.jpg",
+    "title": "Chemical",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 12,
-    "img": "/img/services/4.jpg",
-    "title": "Diving Suit",
+    "img": "/img/applications/12.jpg",
+    "title": "Laser Cutting",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cta": "read more"
+  },
+  {
+    "id": 13,
+    "img": "/img/applications/3.jpg",
+    "title": "Construction",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "cta": "read more"
+  },
+  {
+    "id": 14,
+    "img": "/img/applications/4.jpg",
+    "title": "Safety",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   }

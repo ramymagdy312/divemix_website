@@ -1,5 +1,5 @@
 import PageBanner from "@/components/PageBanner";
-import QuoteRequest from "@/components/QuoteRequest/QuoteRequest";
+import ProductsSection from "@/pages/home/ProductsSection";
 
 export default function Products() {
   return (
@@ -7,7 +7,7 @@ export default function Products() {
       <PageBanner adddress="Products" />
       <div className="container">
         <div className="homeSection">
-          <QuoteRequest />
+          <ProductsSection />
         </div>
       </div>
     </main>
