@@ -13,7 +13,6 @@ ul {
 }
 
 .mainHeader {
-  position: fixed;
   left: 0;
   background-color: #fff;
   height: 7vh;
@@ -72,7 +71,7 @@ ul {
     background-color: transparent;
     box-shadow: none;
     top: 0;
-    height: 9vh;
+    height: 8vh;
     align-items: stretch;
   }
   .mainHeader.shown {
@@ -120,9 +119,9 @@ ul {
   }
   .navLink {
     color: #fff;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
-    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    font-weight: 500;
   }
   .navLink:hover {
     color: #005065;
@@ -175,7 +174,7 @@ ul {
 
 @media (min-width: 768px) {
   .logoWrapper {
-    width: 10vw;
+    width: 8vw;
   }
 }
 .titleAnimation {

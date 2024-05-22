@@ -7,7 +7,7 @@ const Logo = () => {
     <div className="logoWrapper">
       <Link href="/">
         <Image src="/img/logo.png" fill alt="DiveMix" />
-      </Link>;
+      </Link>
     </div>
   );
 };

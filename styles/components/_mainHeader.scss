@@ -2,7 +2,7 @@
 @use "../mixins/mediaQuery" as mixins;
 
 .mainHeader {
-  position: fixed;
+  // position: fixed;
   left: 0;
   background-color: #fff;
   height: 7vh;
@@ -61,7 +61,7 @@
     background-color: transparent;
     box-shadow: none;
     top: 0;
-    height: 9vh;
+    height: 8vh;
     // border-bottom: 1px solid rgba(190, 190, 190, 0.466);
     align-items: stretch;
   }
@@ -115,9 +115,9 @@
 
   .navLink {
     color: #fff;
-    font-size: 1.3rem;
-    letter-spacing: 2px;
-    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    font-weight: 500;
   }
 
   .navLink:hover {

@@ -4,17 +4,19 @@ import Logo from "../Logo";
 import LogoWhite from "../LogoWhite";
 
 const HeaderLogo = () => {
-  const { headerIsShown, isMobileView } = useFixedOnScroll();
+  // const { headerIsShown, isMobileView } = useFixedOnScroll();
 
-  if (isMobileView) {
-    return <Logo />;
-  } else {
-    if (headerIsShown) {
-      return <Logo />;
-    } else {
-      return <LogoWhite />;
-    }
-  }
+  return <Logo />;
+
+  // if (isMobileView) {
+  //   return <Logo />;
+  // } else {
+  //   if (headerIsShown) {
+  //     return <Logo />;
+  //   } else {
+  //     return <LogoWhite />;
+  //   }
+  // }
 };
 
 export default HeaderLogo;

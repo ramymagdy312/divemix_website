@@ -5,11 +5,11 @@ import Navigation from "./Navigation";
 import { useFixedOnScroll } from "./hooks/useFixedOnScroll";
 
 const MainHeader = () => {
-  const { headerIsShown } = useFixedOnScroll();
+  // const { headerIsShown } = useFixedOnScroll();
 
   return (
-    <header className={`mainHeader ${headerIsShown ? "shown" : ""}`}>
-      <div className="container">
+    <header className={`mainHeader shown`}>
+      <div className="container-fluid">
         <div className="mainHeader_innerWrapper">
           <HeaderLogo />
           <div className="d-none d-md-block">
@@ -18,7 +18,6 @@ const MainHeader = () => {
         </div>
       </div>
       <MobileMenu />
-      
     </header>
   );
 };

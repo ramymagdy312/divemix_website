@@ -16,25 +16,21 @@ const AboutSection = () => {
           <h5 className="clrMain fw-bold">Our Name is a promise</h5>
           <div className="titleAnimation mb-4"></div>
           <p className="text-muted">
-            We offer a vast range of products and services including industrial
-            air and nitrogen compressors, mobile and stationary breathing air
-            compressors and accessories, storage and distribution systems as
-            well as systems for natural gas, inert gases and custom built units
-            for special applications. DiveMix has developed its own Nitrox
-            blending system - The DiveMixer - for the SCUBA diving industry with
-            superior reliability, performance and cost efficiency in mind. The
-            outstanding quality of innovative products and services offered by
-            DiveMix, also provides great assistance to the oil and gas industry
-            in strengthening productivity and competitive capability. We offer
-            wellhead control units, hydraulic test units, gas test units to name
-            just a few. Our broad range of experience and products further
-            includes PSA oxygen generators, oxygen filling stations for
-            hospitals, factories and workshops as well as PSA nitrogen
-            generators for industrial applications. Our solutions aim at optimal
-            economy and efficiency. We also offer all-round competent
-            consultancy services concerning most gas logistics.
+            Founded in 2004 as a German – Egyptian Corporation,{" "}
+            <strong className="clrMain fw-bold">DiveMix</strong> has grown to be
+            a prominent, active figure, known for its reliable top-of-the-range
+            compressed air and gas products as well as plants.
           </p>
-
+          <p className="text-muted">
+            <strong className="clrMain fw-bold">DiveMix</strong> is the sole
+            agent, representative, distributor and authorized service point for
+            carefully selected, high quality products that carry the prestigious
+            “made in Germany” trademark. We serve various market sectors such as
+            oil and gas fields, food & beverage, pharmaceutical companies,
+            chemical and petrochemical industries, laser cutting, marine and
+            offshore locations, as well as the recreational diving tourism
+            industry to name just a few.
+          </p>
           <div className="row g-2 row-cols-2 mb-4">
             <div className="col fs-5" data-aos="zoom-in-up">
               <GiCheckMark className="clrMain" /> Award wining
@@ -61,7 +57,6 @@ const AboutSection = () => {
               <GiCheckMark className="clrMain" /> Fair prices
             </div>
           </div>
-
           <div
             className="d-flex align-items-center gap-3 mb-4"
             data-aos="zoom-in"
@@ -77,7 +72,6 @@ const AboutSection = () => {
               <span className="fs-5 clrMain fw-bold">+0109 990 8990</span>
             </div>
           </div>
-
           <button
             className="aboutSection_ctaBtn"
             data-aos="zoom-out"
