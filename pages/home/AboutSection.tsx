@@ -69,7 +69,7 @@ const AboutSection = () => {
             />
             <div className="d-flex flex-column gap-1">
               <span className="fs-5">Call to ask any question</span>
-              <span className="fs-5 clrMain fw-bold">+0109 990 8990</span>
+              <span className="fs-5 clrMain fw-bold">+0100 009 6033</span>
             </div>
           </div>
           <button

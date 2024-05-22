@@ -8,9 +8,6 @@ export default function About() {
       <PageBanner adddress="About Us" />
       <div className="container">
         <AboutSection />
-        <div className="homeSection">
-          <QuoteRequest />
-        </div>
       </div>
     </main>
   );
