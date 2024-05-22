@@ -36,13 +36,18 @@ const HomeBanner = () => {
   return (
     <section className="homeBanner">
       {bannerData.map((slice, i) => (
-        <div key={i} className={`homeBannerSlice ${i == currentSliceIndex ? "active" : ""}`}>
+        <div
+          key={i}
+          className={`homeBannerSlice ${
+            i == currentSliceIndex ? "active" : ""
+          }`}
+        >
           <div className="homeBannerImage">
             <Image src={slice.image} alt="" fill />
-            <div className="homeBannerImage_mask"></div>
+            {/* <div className="homeBannerImage_mask"></div> */}
           </div>
-          
-            <div className="homeBannerTxt">
+
+          <div className="homeBannerTxt">
             <div className="container">
               <h1 className="homeBannerTitle">{slice.title}</h1>
               <h2 className="homeBannerCaption">{slice.caption}</h2>

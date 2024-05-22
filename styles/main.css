@@ -223,7 +223,8 @@ ul {
   border-radius: 10px;
   margin-bottom: 10px;
   height: 50vh;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -404,11 +405,11 @@ ul {
     color: #fff;
   }
   .homeBannerTitle {
-    font-size: 4.5rem;
+    font-size: 3rem;
     text-align: left;
   }
   .homeBannerCaption {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 200;
     text-align: left;
   }
@@ -466,7 +467,8 @@ ul {
   padding: 20px;
   margin: 10px;
   border-radius: 10px;
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
   cursor: pointer;
 }
 
@@ -598,4 +600,4 @@ ul {
     font-weight: 200;
     text-align: left;
   }
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */

@@ -5,8 +5,8 @@ import bannerData from "@/data/homeBannerData.json";
 import Link from "next/link";
 
 type props = {
-    adddress: string;
-  };
+  adddress: string;
+};
 
 const PageBanner = (props: props) => {
   const [currentSliceIndex, setCurrentSliceIndex] = useState(0);
@@ -38,13 +38,20 @@ const PageBanner = (props: props) => {
   return (
     <section className="pageBanner">
       {bannerData.map((slice, i) => (
-        <div key={i} className={`pageBannerSlice ${i == currentSliceIndex ? "active" : ""}`}>
+        <div
+          key={i}
+          className={`pageBannerSlice ${
+            i == currentSliceIndex ? "active" : ""
+          }`}
+        >
           <div className="pageBannerImage">
             <Image src={slice.image} alt="" fill />
-            <div className="pageBannerImage_mask"></div>
+            {/* <div className="pageBannerImage_mask"></div> */}
           </div>
           <div className="pageBannerTxt">
-            <h1 className="pageBannerTitle" data-aos="zoom-in">{props.adddress}</h1>
+            <h1 className="pageBannerTitle" data-aos="zoom-in">
+              {props.adddress}
+            </h1>
           </div>
         </div>
       ))}
