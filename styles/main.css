@@ -453,10 +453,7 @@ ul {
     height: 50%;
   }
 }
-a,
-a:hover,
-a:focus,
-a:active {
+a, a:hover, a:focus, a:active {
   text-decoration: none;
   outline: none;
 }
