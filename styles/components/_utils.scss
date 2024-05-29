@@ -15,14 +15,14 @@
 .logoWrapper {
   cursor: pointer;
   position: relative;
-  height: 100%;
-  width: 40vw;
+  height: 100px;
+  width: 250px;
 }
 
 @include mixins.media-query(medium) {
   .logoWrapper {
-    height: 11vh;
-    width: 12vw;
+    height: 13.5vh;
+    width: 16vw;
   }
 }
 

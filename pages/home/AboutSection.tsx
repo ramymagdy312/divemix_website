@@ -59,7 +59,7 @@ const AboutSection = () => {
                   Mission statement
                 </h2>
                 <div className="text-muted">
-                  <strong className="clrMain fw-bold"> DiveMix's</strong>{" "}
+                  <strong className="clrMain fw-bold"> DiveMix's</strong>
                   DiveMix’s mission is to offer industry leading compressed air
                   and gas solutions. We have highly competent personnel with
                   unparalleled compressed air knowledge, delivering exceptional
