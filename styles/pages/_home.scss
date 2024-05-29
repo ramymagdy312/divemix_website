@@ -203,7 +203,7 @@ img {
 }
 
 section {
-  padding: 60px 0;
+  padding: 5px 0;
   /* min-height: 100vh;*/
 }
 
@@ -463,6 +463,11 @@ section {
 .about-section .image-column .video-link .link:hover {
   background-color: #191e34;
   color: #fff;
+}
+
+.mission-section {
+  position: relative;
+  padding: 0 0 70px;
 }
 
 // ============================================== //
