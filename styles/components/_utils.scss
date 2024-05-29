@@ -21,7 +21,8 @@
 
 @include mixins.media-query(medium) {
   .logoWrapper {
-    width: 8vw;
+    height: 11vh;
+    width: 12vw;
   }
 }
 

@@ -9,7 +9,7 @@ const MainHeader = () => {
 
   return (
     <header className={`mainHeader shown`}>
-      <div className="container-fluid">
+      <div className="container">
         <div className="mainHeader_innerWrapper">
           <HeaderLogo />
           <div className="d-none d-md-block">
