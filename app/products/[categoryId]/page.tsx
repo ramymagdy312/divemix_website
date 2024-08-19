@@ -42,14 +42,7 @@ const Page = ({ params }: { params: { categoryId: string } }) => {
                       {category.images.map((slice, i) => (
                         <div>
                           <div className="productCard">
-                            <Image
-                              key={i}
-                              src={slice}
-                              alt=""
-                              fill
-                              // width={200}
-                              // height={800}
-                            />
+                            <Image key={i} src={slice} alt="" fill />
                           </div>
                         </div>
                       ))}
