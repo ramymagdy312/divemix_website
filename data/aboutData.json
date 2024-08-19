@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "Our Mission",
+    "desc": "At DiveMix, our mission is clear, to provide industry-leading compressed air and gas solutions. Our highly skilled personnel possess unparalleled expertise, ensuring that we deliver exceptional customer service alongside the highest quality products.",
+    "child": []
+  },
+  {
+    "id": "2",
+    "name": "Our Values",
+    "desc": "",
+    "child": [
+      {
+        "id": "1",
+        "name": "Quality",
+        "desc": "We uphold the prestigious “Made in Germany” standard, ensuring unmatched reliability and performance in every product."
+      },
+      {
+        "id": "2",
+        "name": "Innovation",
+        "desc": "We continuously explore new technologies and methods to provide cutting-edge solutions."
+      },
+      {
+        "id": "3",
+        "name": "Customer-Focused",
+        "desc": "Our clients’ needs are at the forefront of everything we do, driving us to offer personalized and responsive service."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Our Commitment",
+    "desc": "We promise unmatched customer service tailored to the evolving demands of high-pressure gas applications. Our comprehensive service offerings include:",
+    "child": [
+      {
+        "id": "1",
+        "name": "Fast Response Times",
+        "desc": "Quick and efficient service to minimize downtime."
+      },
+      {
+        "id": "2",
+        "name": "Professional Maintenance and Repair",
+        "desc": "Expert care for compressors, dryers, O2/N2 generators, and related equipment by manufacturer-trained engineers."
+      },
+      {
+        "id": "3",
+        "name": "Fully Equipped Field Service Vehicles",
+        "desc": "Modern tools and diagnostic accessories for onsite repairs."
+      },
+      {
+        "id": "4",
+        "name": "Complete System Rebuilds and Overhauls",
+        "desc": "Ensuring optimal performance with rigorous load tests."
+      },
+      {
+        "id": "5",
+        "name": "Genuine Manufacturer Spare Parts",
+        "desc": "Quality parts for reliability and longevity."
+      },
+      {
+        "id": "6",
+        "name": "Hydrostatic Test Station",
+        "desc": "Inspection services for all types and capacities of pressurized cylinders."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Why Choose DiveMix?",
+    "desc": "Choosing DiveMix means partnering with a company that values precision, reliability, and customer satisfaction. Our German engineering expertise, combined with local market understanding, ensures that we deliver tailored solutions that meet and exceed your expectations.",
+    "child": []
+  },
+  {
+    "id": "5",
+    "name": "Get in Touch",
+    "desc": "Discover how DiveMix can support your compressed air and gas needs. Contact us today to speak with our experts and learn more about our innovative solutions.",
+    "child": []
+  }
+]
