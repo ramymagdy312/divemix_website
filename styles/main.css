@@ -252,6 +252,12 @@ ul {
 
 .cardDesc {
   color: gray;
+  overflow: hidden;
+  display: -webkit-box;
+  /* display 2 lines only */
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .cardCta {
@@ -266,6 +272,12 @@ ul {
 
 .cardCta:hover {
   background-color: #06a3da;
+}
+
+.productCard {
+  position: relative;
+  height: 500px;
+  width: 500px;
 }
 
 .quoteRequst_wrapper {

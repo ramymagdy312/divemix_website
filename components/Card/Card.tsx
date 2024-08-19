@@ -6,13 +6,13 @@ type props = {
   title: string;
   desc: string;
   cta: string;
-  onClick?: () => {};
-  ctaAction?: () => {};
+  onClick?: () => void;
+  ctaAction?: () => void;
 };
 
 const Card = (props: props) => {
   return (
-    <div className="customCard">
+    <div className="customCard" onClick={props.onClick}>
       <div className="cardImg">
         <Image src={props.img} fill alt="" />
       </div>

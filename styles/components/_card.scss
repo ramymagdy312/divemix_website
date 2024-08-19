@@ -33,6 +33,13 @@
 
 .cardDesc {
   color: gray;
+
+  overflow: hidden;
+    display: -webkit-box;
+    /* display 2 lines only */
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .cardCta {
@@ -47,4 +54,11 @@
   &:hover {
     background-color: vars.$clr-main-hover;
   }
+}
+
+
+.productCard {
+  position: relative;
+  height: 500px;
+  width: 500px;
 }

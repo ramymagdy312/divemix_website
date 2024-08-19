@@ -8,6 +8,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { Inter } from "next/font/google";
 import "@/styles/main.css";
 import { useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +32,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div id="modalContainer"></div>
         <MainHeader />
+        <ToastContainer />
         {children}
         <MainFooter />
       </body>
