@@ -40,9 +40,9 @@ const Page = ({ params }: { params: { categoryId: string } }) => {
                   <div className="w-50">
                     <Slider {...sliderSettings}>
                       {category.images.map((slice, i) => (
-                        <div>
+                        <div key={i}>
                           <div className="productCard">
-                            <Image key={category.id} src={slice} alt="" fill />
+                            <Image key={i} src={slice} alt="" fill />
                           </div>
                         </div>
                       ))}
