@@ -25,7 +25,12 @@ const Page = ({ params }: { params: { categoryId: string } }) => {
       <div className="container-fluid bg-light">
         <div className="row gap-3">
           {products?.products.map((category, i) => (
-            <div key={i} className="col-md-12 bg-white p-3 shadow">
+            <div key={i} className="col-md-12 position-relative p-3 shadow">
+              <div
+                className={`productBackground ${
+                  i % 2 != 0 && "productBackground-fliped"
+                }`}
+              />
               <div className="container">
                 <div className="row">
                   <div className="col-md-12">
@@ -34,7 +39,7 @@ const Page = ({ params }: { params: { categoryId: string } }) => {
                         i % 2 != 0 && "flex-md-row-reverse"
                       }`}
                     >
-                      <div className="w-50">
+                      <div className="w-50 text-center">
                         <h2 className="fw-bold">{category.name}</h2>
                         <p>{category.desc}</p>
                       </div>

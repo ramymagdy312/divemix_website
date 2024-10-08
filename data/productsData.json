@@ -1,84 +1,84 @@
 [
   {
     "id": 1,
-    "img": "/img/services/1.jpg",
+    "img": "/img/services/1.png",
     "title": "Maintainence",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 2,
-    "img": "/img/services/2.webp",
+    "img": "/img/services/2.png",
     "title": "Compressor",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 3,
-    "img": "/img/services/3.jpg",
+    "img": "/img/services/3.png",
     "title": "Diving Accessories",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 4,
-    "img": "/img/services/4.jpg",
+    "img": "/img/services/4.png",
     "title": "Diving Suit",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 5,
-    "img": "/img/services/1.jpg",
+    "img": "/img/services/1.png",
     "title": "Maintainence",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 6,
-    "img": "/img/services/2.webp",
+    "img": "/img/services/2.png",
     "title": "Compressor",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 7,
-    "img": "/img/services/3.jpg",
+    "img": "/img/services/3.png",
     "title": "Diving Accessories",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 8,
-    "img": "/img/services/4.jpg",
+    "img": "/img/services/4.png",
     "title": "Diving Suit",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 9,
-    "img": "/img/services/1.jpg",
+    "img": "/img/services/1.png",
     "title": "Maintainence",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 10,
-    "img": "/img/services/2.webp",
+    "img": "/img/services/2.png",
     "title": "Compressor",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 11,
-    "img": "/img/services/3.jpg",
+    "img": "/img/services/3.png",
     "title": "Diving Accessories",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
   },
   {
     "id": 12,
-    "img": "/img/services/4.jpg",
+    "img": "/img/services/4.png",
     "title": "Diving Suit",
     "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "cta": "read more"
